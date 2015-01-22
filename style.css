@@ -1,1 +1,52 @@
-my css
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width:auto;
+	height:auto	
+}
+
+#topCont {
+	width:inherit;
+	height: 30%;	
+}
+#midCont {
+	width:inherit;
+	height: 40%;	
+}
+
+#bottomCont {
+	width:inherit;
+	height:30%;
+}
+
+#name {
+	color: lightblue;
+    font-family: 'axelregular';
+    font-size:100px;
+    letter-spacing: 0.625em;
+    text-align: center;	
+}
+#line {
+	width:inherit;
+	height:5px;
+	background-color:#000000;
+}
+.box
+{
+  margin:3%;
+  background-color:#fffff7;
+  float: left;
+}
+
+.box div
+{
+  diplay:inline;
+  width:200px;
+  height:300px;
+  padding: 15px;
+  margin: auto;
+  border:1px solid red;
+  background-color:#fffff7;
+  border-radius:25px;
+}
