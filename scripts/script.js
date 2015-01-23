@@ -3,3 +3,9 @@ $(document).ready(function(e) {
     $("div#midCont").hide(500).delay(200).show(1000); 
 	$("footer").slideUp(700).delay(200).slideDown(1000);
 });
+
+$(document).ready(function(e) {
+    $("div#box1").mouseenter(){
+		$(this).size(100);
+	});
+});
