@@ -1,59 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
 
-#container {
+body
+{
+	background-image:url(../images/backgrounImage.jpg);	
+}
+#container 
+{
 	width:auto;
 	height:auto	
 }
 
-#topCont {
-	width:inherit;
-	
-}
-#midCont {
+#topCont 
+{
 	width:inherit;
 	
 }
 
-#bottomCont {
+#midCont 
+{
+	width:inherit;	
+}
+
+#bottomCont 
+{
 	width:inherit;
 }
 
-#name {
+#name 
+{
 	color: lightblue;
     font-family: 'axelregular';
     font-size:100px;
     letter-spacing: 0.625em;
     text-align: center;	
 }
-#line {
+
+#line 
+{
 	width:inherit;
 	height:5px;
 	background-color:#000000;
 }
 
-.clear{
-clear:both;
-
-}
-.box
+button
 {
-  margin:3%;
-  background-color:#fffff7;
-  float: left;
+	width:33.13%;
+	height: 75px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	border-radius: 5px;
+	background-color:#38E6F5;
+	font-size:medium;
+	border:#65A3F5, thick;
 }
 
-.box {
-	height: 50px;
-	width: 100px;
-	border: 2px solid black;
-	border-radius: 5px;
-	display:inline-block;
-	text-align:center;
-	padding:2% 10%;
-	background-color:#2BD3EF;
+.clear
+{
+clear:both;
 }
-footer {
+
+footer 
+{
 	width:100%;
 	height:80px;
 	position:absolute;
