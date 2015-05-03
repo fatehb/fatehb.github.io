@@ -113,23 +113,23 @@
 		<section id="contact">
 			<h2>Freelance work? Let's work together.</h2>
 			<h3>I'm currently accepting projects.</h3>
-			<form action="actions/email.php" method="POST">
+			<form action="email.php" method="POST">
 				<p>
 
 					<label for="name">Name:</label>
-					<input type="text" id="name" class="field" placeholder="Name" />
+					<input type="text" name="name" class="field" placeholder="Name" />
 				</p>
 				<p>
 					<label for="email">Email Address:</label>
-					<input type="text" id="email" class="field" placeholder="Email" />
+					<input type="text" name="email" class="field" placeholder="Email" />
 				</p>
 				<p>
-					<label for="subject">What can I help with?</label>
-					<input type="text" id="subject" class="field" placeholder="Subject" />
+					<label name="sub" for="subject">What can I help with?</label>
+					<input type="text" name="subject" class="field" placeholder="Subject" />
 				</p>
 				<p>
 					<label for="budget">Project Budget:</label>
-					<select id="budget" class="field" placeholder="Budget">
+					<select name="budget" class="field" placeholder="Budget">
 						<option id="default">BUDGET</option>
 						<option value="none">None</option>
 						<option value="underone">Less than $1,000</option>
